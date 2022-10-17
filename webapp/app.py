@@ -11,7 +11,7 @@ img_size=100
 
 app = Flask(__name__) 
 
-model=load_model('model/model-015.model')
+model=load_model('webapp\model\model-015.model')
 
 label_dict={0:'Covid19 Negative', 1:'Covid19 Positive'}
 
